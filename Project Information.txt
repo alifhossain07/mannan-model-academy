@@ -1,0 +1,21 @@
+School Management System - Mannan Model Academy
+
+Instructions to run the project
+
+Download this version of python and install to run the project
+https://www.python.org/ftp/python/3.10.2/python-3.10.2-amd64.ex
+
+while installing make sure to tik set environment variable.
+
+Project Setup Process :
+
+Make sure to open CMD in the project root folder
+
+In CMD------
+- Install the Requirements: pip install -r requirements.txt
+- Then, make database migrations: python manage.py makemigrations
+- python manage.py migrate
+
+ run the application  CMD python manage.py runserver
+
+
